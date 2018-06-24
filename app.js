@@ -15,7 +15,7 @@ app.use('/v1', router)
 //     res.send("Hello React Native!")
 // })
 
-const server = app.listen(process.env.PORT || 8080, process.env.IP || "0.0.0.0", () => {
+const server = app.listen(8080, "0.0.0.0", () => {
   const { address, port } = server.address();
   console.log(`Listening at http://${address}:${port}`);
 });
