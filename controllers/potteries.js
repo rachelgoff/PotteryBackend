@@ -10,9 +10,7 @@ export const index = (req, res, next) => {
             potteries: potteries.map(pottery=>({
                 ...pottery,
                 dates,
-                time,
-                
+                time,                
             }))
-        }))
-    
+        }))   
 }
