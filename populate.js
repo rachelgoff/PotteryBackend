@@ -13,8 +13,7 @@ const potteries = [
         firingDate: ['2018-05-01', '2018-05-10'],
         firingType: ['Bisque', 'Wood Fire'],
         glazeDate: ['2018-05-01', '2018-05-10'],
-        glazeType: 'Shino'
-        
+        glazeType: 'Shino'     
     },
     {
         pottery_id: '2',
@@ -27,8 +26,7 @@ const potteries = [
         firingDate: ['2018-05-03', '2018-05-18'],
         firingType: ['Cone 5', 'Salt Fire'],
         glazeDate: ['2018-05-03', '2018-05-18'],
-        glazeType: 'Celadon'
-        
+        glazeType: 'Celadon'       
     }]
     
     mongoose.connect('mongodb://localhost/potteries')
